@@ -20,8 +20,10 @@
 <main>
 <p>We provide a simple tutorial for <a
 href="https://ggx-research.github.io/publication/2023/05/10/publication-iadb.html">Iterative
-𝛼-(de)Blending</a> applied to 2D densities. We provide a Python code and
-explain how it works below.</p>
+𝛼-(de)Blending</a> applied to 2D densities.</p>
+<p>We provide a <a
+href="https://github.com/tchambon/posts/blob/main/iadb-2D/IADB_2d.py">Python
+code</a> and explain how it works below.</p>
 <h2 id="data-loading">Data loading</h2>
 <p>The objective is to create a mapping between two arbitrary
 distributions <span class="math inline"><em>p</em><sub>0</sub></span>
@@ -156,7 +158,6 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a hr
 <span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>        x_alpha <span class="op">=</span> x_alpha <span class="op">+</span> <span class="dv">1</span><span class="op">/</span>T <span class="op">*</span> D(x_alpha, alpha)</span></code></pre></div>
 <p>This is a GIF animation made with the exported plots.</p>
 <div style="display:flex; justify-content:center">
-
 <div>
 <center style="font-weight:800;margin-bottom: 0;">
 <span class="math inline"><em>x</em><sub>0</sub></span>
@@ -175,6 +176,10 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a hr
 </center>
 <p><img style="width:100%;" src="./images/x1.png"></p>
 </div>
+</div>
+<h2 id="full-code">Full code</h2>
+<p>You can find the full code <a
+href="https://github.com/tchambon/posts/blob/main/iadb-2D/IADB_2d.py">here</a>.</p>
 </main>
 
 <script>
